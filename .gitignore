@@ -1,0 +1,67 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+.venv/
+
+# Jupyter (if you use later)
+.ipynb_checkpoints/
+
+# -------------------------
+# Database
+# -------------------------
+*.db
+*.sqlite
+*.pgdata/
+*.sql.dump
+
+# Local database credentials
+database_credentials.json
+config.yaml
+secrets.json
+*.key
+*.pem
+*.pgpass
+
+# -------------------------
+# Logs & Cache
+# -------------------------
+*.log
+*.tmp
+cache/
+tmp/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor Junk
+# -------------------------
+.vscode/
+.settings/
+.idea/
+*.iml
+
+# -------------------------
+# Analytics Tools
+# -------------------------
+# Tableau temporary files
+*~.twb
+*~.twbx
+TableauTemp/
+
+# Power BI
+*.pbix
+
+# Excel cache
+~$*.xlsx
+*.xlsb
